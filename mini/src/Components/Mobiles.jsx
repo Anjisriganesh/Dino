@@ -65,7 +65,6 @@ const handleDelete = async(id)=>{
         const response = await fetch(
           'http://localhost:8600/api/mobile'
         )
-
         const data = await response.json()
         setMobiles(data)
       } catch (error) {
@@ -79,7 +78,7 @@ const handleDelete = async(id)=>{
       <div style={{ display: 'flex', gap: '10px' }}>
         <button id="button" onClick={() => navigate('/')}>← Back
         </button>
-        <h2>Mobiles</h2>
+        <h2>All Mobiles</h2>
         {isAdmin && (
         <button id='z' onClick={()=>navigate('/addItem',{
     state: {category:'mobile'}})}>
