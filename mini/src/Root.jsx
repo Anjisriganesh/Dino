@@ -4,6 +4,7 @@ import './Root.css'
 const Root = () => {
   const navigate = useNavigate()
   const[search,setSearch]=useState('')
+  const[darkMode,setDarkMode]=useState(false)
   const handleSearch=(e)=>{
     if(e.key==='Enter'){
       const value=search.toLowerCase()
@@ -36,11 +37,14 @@ const Root = () => {
     setUser(null)
     navigate('/')
   }
+  const toggleTheme=()=>{
+    setDarkMode(prev=>!prev)
+  }
   return (
     <div className="root">
-      <header className={user?.role==='admin'?'aheader':"header"}>
+      <header className={`${user?.role === 'admin' ? 'aheader' : 'header'} ${darkMode ? 'dark' : 'light'}`}>
         <h1 className="logo">Dino</h1>
-        <div className="search-container">
+        <div className={user?.role==='user'?"search-container":'adminSearch'}>
         <input type="text" placeholder="Search..." className="search"
         value={search}
         onChange={(e)=>setSearch(e.target.value)}
@@ -51,12 +55,17 @@ const Root = () => {
           {user ? (
             <>
               <h3 id={user?.role==='admin'?'aname':'name'}>👤{user.name}</h3>
-              <button onClick={() => navigate('/cart')} id='c1'>
+              {user?.role==='user'&&<><button onClick={() => navigate('/cart')} id='c1'>
                 Cart
               </button>
               <button onClick={() => navigate('/orders')} id='c2'>
                 Order Status
-              </button>
+              </button></>}
+              {user?.role==='admin'&&
+                <>
+                <button onClick={toggleTheme} className='"theme-btn"'>{darkMode ? '🌙' : '☀️'}</button>
+                </>
+              }
               <button onClick={handleLogout} id='c3'>
                 Logout
               </button>
@@ -69,7 +78,7 @@ const Root = () => {
         </div>
       </header>
       <main>
-        <Outlet context={{setUser,user }} />
+        <Outlet context={{setUser,user,darkMode}} />
       </main>
     </div>
   )

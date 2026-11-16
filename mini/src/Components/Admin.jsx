@@ -1,52 +1,45 @@
 import React, { useState } from 'react'
-import { Link, Outlet } from 'react-router-dom'
+import { Link, useOutletContext} from 'react-router-dom'
 import './Admin.css'
-
 const Admin = () => {
-  const [showProducts, setShowProducts] = useState(false)
-
+  const [show, setShow] = useState(false)
+  const {darkMode}=useOutletContext()
+  const HandleProducts = () => {
+    setShow(prev => !prev)
+  }
   return (
-    <div className="admin-container">
-
-      <aside className="sidebar">
-        <h2>Admin Panel</h2>
-
+    <div className='admint'>
+      <aside className={`adminnav ${darkMode?'dark':'light'}`}>
+        <h2>Admin Portal</h2>
         <nav>
           <ul>
             <li>
-              <Link to="/admin">Dashboard</Link>
+              <button>Dashboard</button>
             </li>
-
             <li>
-              <button
-                className="product-btn"
-                onClick={() => setShowProducts(!showProducts)}
-              >
+              <button onClick={HandleProducts}>
                 Products
-                <span>{showProducts ? '−' : ''}</span>
               </button>
-            </li>
-
-            {showProducts && (
-              <ul className="category-list">
-                <li><Link to="/Mobiles">Mobiles</Link></li>
-                <li><Link to="/electronics">Electronics</Link></li>
-                <li><Link to="/funitures">Funitures</Link></li>
-                <li><Link to="/cloths">Clothes</Link></li>
-                <li><Link to="/toys">Toys</Link></li>
-              </ul>
-            )}
-          </ul>
-        </nav>
-      </aside>
-
-      <main className="admin-content">
-        <h1>Welcome Admin</h1>
-        <p>Select a category from the Products menu.</p>
-        <Outlet />
-      </main>
-
+              {show && (
+                <div className="dropdown">
+                  <Link to="/mobiles">Mobiles</Link>
+                  <Link to="/electronics">Electronics</Link>
+                  <Link to="/funitures">Funitures</Link>
+                  <Link to="/cloths">Dresses</Link>
+                  <Link to="/toys">Toys</Link>
+                </div>
+              )}
+          </li>
+          <Link id='s1' to='/cart'>Cart</Link>
+          <Link id='s2' to='/orders'>All Orders</Link>
+        </ul>
+      </nav>
+    </aside>
+    <div className='headerx'>
+      <img src='/logo.jpg'/>
+      <h2>Welcome Admin</h2>
     </div>
+    </div >
   )
 }
 
