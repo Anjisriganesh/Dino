@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "TCL 108 cm (43 inches) 4K Ultra HD Smart LED Google TV | 4K HDR | Dolby...",
+    "image": "/Images/tv1.jpg",
+    "rating": 4.5,
+    "discount": "33%",
+    "oldPrice": 45999,
+    "price": 33900
+  },
+  {
+    "id": 2,
+    "name": "Sony ULT Field 5 Bluetooth Speaker, 100W Bass (2 Modes), 25Hr Battery,...",
+    "image": "/Images/tv10.jpg",
+    "rating": 4.5,
+    "discount": "33%",
+    "oldPrice": 45999,
+    "price": 20414
+  },
+  {
+    "id": 3,
+    "name": "Portronics Power Shutter 10000mAh 15W Magnetic Wireless Fast Charging Powe...",
+    "image": "/Images/tv9.jpg",
+    "rating": 4.5,
+    "discount": "33%",
+    "oldPrice": 45999,
+    "price": 10999
+  },
+  {
+    "id": 4,
+    "name": "Buds T310 True Wireless in-Ear Earbuds with 46dB Hybrid ANC, 360° Spatial Audio, 12.4mm Dynamic Bass...",
+    "image": "/Images/ear.jpg",
+    "rating": 4.5,
+    "discount": "33%",
+    "oldPrice": 45999,
+    "price": 2398
+  },
+  {
+    "id": 5,
+    "name": "Samsung 6.5 kg, 5 star, Semi-Automatic Top Load Washing Machine...",
+    "image": "/Images/tv12.jpg",
+    "rating": 4.5,
+    "discount": "33%",
+    "oldPrice": 45999,
+    "price": 9999
+  },
+  {
+    "id": 6,
+    "name": "Cruise 1.5 Ton 3 Star VarioQool Inverter Split AC (New BEE, CWCVBM-VQ3D173)...",
+    "image": "/Images/tv11.jpg",
+    "rating": 4.5,
+    "discount": "33%",
+    "oldPrice": 45999,
+    "price": 28999
+  },
+  {
+    "id": 7,
+    "name": "ZEBRONICS Juke Bar 11000 Soundbar, 1610W RMS, 11.2.4 Ch, Dolby Atmos, DTS:X...",
+    "image": "/Images/tv13.jpg",
+    "rating": 4.5,
+    "discount": "33%",
+    "oldPrice": 45999,
+    "price": 69999
+  },
+  {
+    "id": 8,
+    "name": "ASUS Chromebook CM1405 (2026)....",
+    "image": "/Images/tv14.jpg",
+    "rating": 4.5,
+    "discount": "33%",
+    "oldPrice": 45999,
+    "price": 30999
+  }
+]

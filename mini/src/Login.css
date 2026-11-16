@@ -1,0 +1,67 @@
+.logincss {
+  width: 450px;
+  margin: 100px auto;
+  padding: 30px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+body {
+  background-color: rgb(245, 243, 243);
+}
+.logincss h2 {
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.logincss input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 15px;
+  color: black;
+  box-sizing: border-box;
+}
+
+.logincss input:focus {
+  outline: none;
+  box-shadow: 0px 0px 0px 1px blue;
+}
+.logincss button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4e056b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.logincss p {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+.logincss a {
+  color: #2874f0;
+  text-decoration: none;
+}
+
+.logincss a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .logincss {
+    width: 90%;
+    margin: 60px auto;
+    padding: 20px;
+  }
+}

@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.total {
+  width: 100%;
+  background-color: white;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.nav{
+    display: flex;
+    background-color: whitesmoke;
+    padding: 7px;
+}
+.ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.ul a:hover{
+    color: crimson;
+}
+.ul a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.banners{
+    display:flex;
+}
+.banners img{
+    width: 100%;
+    container-type: cover;
+}
+.slider {
+  width: 100%;
+  overflow: hidden;
+}
+.slider-images {
+  display: flex;
+  transition: transform 0.6s ease-in-out;
+}
+.slider-images img{
+  min-width: 100%;
+  object-fit: cover;
+}
+.mobiledeals img{
+    width: 210px;
+    height:240px;
+}
+.mobiledeals{
+    display: flex;
+    gap: 50px;
+    width: 60%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.topItems{
+    margin-top: 10px;
+}
+.topItems h3{
+    font-size: 30px;
+    color: rgb(112, 5, 235);
+}
+
+.HotDeals h3{
+    margin-top: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: blueviolet;
+}
+.hdeals{
+    display:flex;
+    gap:50px;
+    margin-left: 30px;
+    width: 200px;
+}
+.hdeals img{
+    width: 200px;
+    height:190px
+}
+#tv{
+    width:300px;
+    height:200px;
+}
+.footer{
+    background-color: black;
+    padding: 30px;
+}
+#remote{
+    width: 170px;
+}
+.h2deals{
+    display:flex;
+    gap:50px;
+    margin-left: 30px;
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.h2deals img{
+    width: 200px;
+    height:190px
+}
+#ear{
+    height: 210px;
+}

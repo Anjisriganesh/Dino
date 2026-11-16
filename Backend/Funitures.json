@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Lukzer Wooden Book Shelf & Storage Cabinet with White Doors.....",
+    "image": "/Images/ho3.jpg",
+    "rating": 4.5,
+    "discount": "33%",
+    "oldPrice": 45999,
+    "price": 20456
+  },
+  {
+    "id": 2,
+    "name": "Interio by Godrej Paramount 3-Seater Fabric Sofa for Living Room...",
+    "image": "/Images/ho4.jpg",
+    "rating": 4.5,
+    "discount": "33%",
+    "oldPrice": 45999,
+    "price": 21899
+  },
+  {
+    "id": 3,
+    "name": "Urban Decor Three Seater Wooden Sofa Set with Matching Ottoman....",
+    "image": "/Images/ho5.jpg",
+    "rating": 4.4,
+    "discount": "33%",
+    "oldPrice": 45999,
+    "price": 19999
+  },
+  {
+    "id": 4,
+    "name": "Alpine Willow Pooja Mandir with Door | Temple for Home with Door...",
+    "image": "/Images/ho6.jpg",
+    "rating": 4.5,
+    "discount": "33%",
+    "oldPrice": 45999,
+    "price": 10999
+  },
+  {
+    "id": 5,
+    "name": "Royaloak Luxe King Size Bed with Hydraulic Storage....",
+    "image": "/Images/ho7.jpg",
+    "rating": 4.5,
+    "discount": "33%",
+    "oldPrice": 45999,
+    "price": 45000
+  },
+  {
+    "id": 6,
+    "name": "LEGACY OF COMFORT FUUBA Storage Ottoman, Storage Bench 2 Seater Sofa...",
+    "image": "/Images/ho8.jpg",
+    "rating": 4.5,
+    "discount": "33%",
+    "oldPrice": 45999,
+    "price": 7789
+  },
+  {
+    "id": 7,
+    "name": "Nilkamal Kylo 4-Seater Dining Table Set with 4 Chairs |Rubberwood...",
+    "image": "/Images/ho9.jpg",
+    "rating": 4.5,
+    "discount": "33%",
+    "oldPrice": 45999,
+    "price": 22819
+  },
+  {
+    "id": 8,
+    "name": "Anikaa Wintor Engineered Wood Wall Mounted Tv.....",
+    "image": "/Images/ho2.jpg",
+    "rating": 4.4,
+    "discount": "33%",
+    "oldPrice": 45999,
+    "price": 2099
+  }
+]

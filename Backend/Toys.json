@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Little's Junior Ring (Plastic,Multicolour)",
+    "image": "/Images/toy1.jpg",
+    "rating": 4.5,
+    "discount": "33%",
+    "oldPrice": 45999,
+    "price": 299
+  },
+  {
+    "id": 2,
+    "name": "Casdon Kitchen Set, Casdon Home Breakfast Set for....",
+    "image": "/Images/toy2.jpg",
+    "rating": 4.5,
+    "discount": "33%",
+    "oldPrice": 45999,
+    "price": 1999
+  },
+  {
+    "id": 3,
+    "name": "SHAKTISM Coffee Machine Toy for Kids with Sounds, Light, Steam...",
+    "image": "/Images/toy3.jpg",
+    "rating": 4.5,
+    "discount": "33%",
+    "oldPrice": 45999,
+    "price": 999
+  },
+  {
+    "id": 4,
+    "name": "GRAPHENE 4X4 Remote Control Drift Stunt Car 4WD Racing Fall Resistant RC Car",
+    "image": "/Images/toy4.jpg",
+    "rating": 4.5,
+    "discount": "33%",
+    "oldPrice": 45999,
+    "price": 1209
+  },
+  {
+    "id": 5,
+    "name": "Storio Rechargeable Remote Control Rotating Rolling Stunt RC Car...",
+    "image": "/Images/toy5.jpg",
+    "rating": 4.5,
+    "discount": "33%",
+    "oldPrice": 45999,
+    "price": 499
+  },
+  {
+    "id": 6,
+    "name": "American Cow Plush Soft Toy 45 cm | Ultra Soft Stuffed Animal for Kids",
+    "image": "/Images/toy6.jpg",
+    "rating": 4.5,
+    "discount": "33%",
+    "oldPrice": 45999,
+    "price": 599
+  },
+  {
+    "id": 7,
+    "name": "Mirada Huggable Teddy Bear Soft Plush Toy...",
+    "image": "/Images/toy7.jpg",
+    "rating": 4.5,
+    "discount": "33%",
+    "oldPrice": 45999,
+    "price": 999
+  },
+  {
+    "id": 8,
+    "name": "Skillmatics Snap N' Swap – Magnetic Animal Toy for Toddlers...",
+    "image": "/Images/toy8.jpg",
+    "rating": 4.5,
+    "discount": "33%",
+    "oldPrice": 45999,
+    "price": 899
+  }
+]

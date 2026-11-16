@@ -1,0 +1,32 @@
+[
+  {
+    "name": "GANESH",
+    "email": "kganeshg40@gmail.com",
+    "number": "8374413243",
+    "password": "123",
+    "Confirmpassword": "123"
+  },
+  {
+    "name": "Siri",
+    "email": "siri@gmail.com",
+    "number": "8374413243",
+    "password": "123",
+    "Confirmpassword": "123"
+  },
+  {
+    "id": 1794647773329,
+    "name": "ramesh",
+    "email": "ramesh@gmail.com",
+    "number": "8374413243",
+    "password": "123",
+    "Confirmpassword": "123"
+  },
+  {
+    "id": 1794647817417,
+    "name": "ramesh",
+    "email": "ramesh@gmail.com",
+    "number": "8374413243",
+    "password": "123",
+    "Confirmpassword": "123"
+  }
+]

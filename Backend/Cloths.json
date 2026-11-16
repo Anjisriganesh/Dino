@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "DEEMOON Men's Premium Cotton Blend Printed Checkered Shirt...",
+    "image": "/Images/sh1.jpg",
+    "rating": 4.5,
+    "discount": "33%",
+    "oldPrice": 45999,
+    "price": 499
+  },
+  {
+    "id": 2,
+    "name": "realme P4 5G (Steel Grey, 128 GB) (8 GB RAM)",
+    "image": "/Images/sh2.jpg",
+    "rating": 4.5,
+    "discount": "33%",
+    "oldPrice": 45999,
+    "price": 699
+  },
+  {
+    "id": 3,
+    "name": "Deelmo MenS Stylish Cotton Blend Casual Shirt...",
+    "image": "/Images/sh3.jpg",
+    "rating": 4.5,
+    "discount": "33%",
+    "oldPrice": 45999,
+    "price": 999
+  },
+  {
+    "id": 4,
+    "name": "Babyhug Cotton Woven Half Sleeves Embroidered Choli & Lehenga Set - Green",
+    "image": "/Images/kd1.webp",
+    "rating": 4.5,
+    "discount": "33%",
+    "oldPrice": 45999,
+    "price": 799
+  },
+  {
+    "id": 5,
+    "name": "Boys Summer 3 Packs Of T-shirts and Shorts Combo Set (Multicolors)",
+    "image": "/Images/kd2.jpg",
+    "rating": 4.5,
+    "discount": "33%",
+    "oldPrice": 45999,
+    "price": 829
+  },
+  {
+    "id": 6,
+    "name": "Googo Gaaga Boys Clothing Set | Boys T-Shirt and Denim Pant Set",
+    "image": "/Images/kd3.jpg",
+    "rating": 4.5,
+    "discount": "33%",
+    "oldPrice": 45999,
+    "price": 499
+  },
+  {
+    "id": 7,
+    "name": "Lymio Track Pant for Men || Pocket with Track Pant || Elastic Jogger Pant (Packs Also Available) (TP-06-08)",
+    "image": "/Images/kd4.jpg",
+    "rating": 4.5,
+    "discount": "33%",
+    "oldPrice": 45999,
+    "price": 999
+  },
+  {
+    "id": 8,
+    "name": "Ben Martin Men Jeans || Baggy Fit Jean's for Man || Loose Fit High Rise...",
+    "image": "/Images/kd5.jpg",
+    "rating": 4.5,
+    "discount": "33%",
+    "oldPrice": 45999,
+    "price": 1029
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "realme 14 Pro+ 5G (Suede Blue, 256 GB) (12 GB RAM)",
+    "image": "/Images/m1.jpg",
+    "rating": 4.4,
+    "discount": "33%",
+    "oldPrice": 45999,
+    "price": 24999
+  },
+  {
+    "id": 2,
+    "name": "realme 15 Pro 5G (Silk Purple, 512 GB) (12 GB RAM)",
+    "image": "/Images/m10.jpg",
+    "rating": 4.5,
+    "discount": "33%",
+    "oldPrice": 45999,
+    "price": 49999
+  },
+  {
+    "id": 3,
+    "name": "Apple iPhone 16 Plus (Black, 128 GB)",
+    "image": "/Images/m2.jpg",
+    "rating": 4.5,
+    "discount": "33%",
+    "oldPrice": 45999,
+    "price": 79999
+  },
+  {
+    "id": 4,
+    "name": "Zero 40 5G (Steel Grey, 128 GB) (8 GB RAM)",
+    "image": "/Images/m6.jpg",
+    "rating": 4.5,
+    "discount": "33%",
+    "oldPrice": 45999,
+    "price": 30999
+  },
+  {
+    "id": 5,
+    "name": "IQOO Z10R 5G (Aquamarine, 128 GB) (8 GB RAM)",
+    "image": "/Images/m8.jpg",
+    "rating": 4.3,
+    "discount": "33%",
+    "oldPrice": 45999,
+    "price": 39999
+  },
+  {
+    "id": 6,
+    "name": "REDMI Note 13 Pro 5G (Coral Purple, 256 GB) (8 GB RAM)",
+    "image": "/Images/m5.jpg",
+    "rating": 4.5,
+    "discount": "33%",
+    "oldPrice": 45999,
+    "price": 30999
+  },
+  {
+    "id": 7,
+    "name": "Apple iPhone 16 Pro (Black Titanium, 256 GB)",
+    "image": "/Images/m9.jpg",
+    "rating": 4.5,
+    "discount": "33%",
+    "oldPrice": 45999,
+    "price": 129999
+  },
+  {
+    "id": 8,
+    "name": "Poco X6 5g (Steel Blue, 128 GB) (8 GB RAM)",
+    "image": "/Images/m7.jpg",
+    "rating": 4.4,
+    "discount": "33%",
+    "oldPrice": 45999,
+    "price": 30999
+  }
+]
