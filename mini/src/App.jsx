@@ -27,7 +27,7 @@ const App = () => {
     {path:'/toys',element:<Toys/>},
     {path:'/cart',element:<Cart/>},
     {path:'/addItem',element:<AddItem/>},
-    {path:'/orders',element:<Orders/>}
+    {path:'/orders',element:<Orders/>},
   ]}])
   return (
     <div>

@@ -1,7 +1,9 @@
 import React,{useState,useEffect} from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link, useNavigate, useOutletContext } from 'react-router-dom'
 import './Home.css'
+import Admin from './Components/Admin'
 const Home = () => {
+  const{user}=useOutletContext()
   const navigate=useNavigate()
   const[index,setIndex]=useState(0)
   const images = [
@@ -15,6 +17,9 @@ const Home = () => {
     }, 3000)
     return () => clearInterval(interval)
   },[])
+  if(user?.role?.toLowerCase() === 'admin') {
+    return <Admin />
+  }
   return (
     <div className='total'>
       <nav className='nav'>

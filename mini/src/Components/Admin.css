@@ -1,0 +1,74 @@
+.admin-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 230px;
+  background-color: #222;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 15px 0;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.sidebar a:hover {
+  background-color: #555;
+}
+
+.admin-content {
+  flex: 1;
+  padding: 30px;
+  background-color: #f4f4f4;
+}
+.product-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  background: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: left;
+}
+
+.product-btn:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+.category-list {
+  padding-left: 15px !important;
+}
+
+.category-list li {
+  margin: 8px 0 !important;
+}
+
+.category-list a {
+  font-size: 14px;
+  background-color: #333;
+}
