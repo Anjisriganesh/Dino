@@ -43,7 +43,10 @@ const Root = () => {
   return (
     <div className="root">
       <header className={`${user?.role === 'admin' ? 'aheader' : 'header'} ${darkMode ? 'dark' : 'light'}`}>
+        <div className='lt'>
+        <img id='limg' src='/logo2.jpg'/>
         <h1 className="logo">Dino</h1>
+        </div>
         <div className={user?.role==='user'?"search-container":'adminSearch'}>
         <input type="text" placeholder="Search..." className="search"
         value={search}

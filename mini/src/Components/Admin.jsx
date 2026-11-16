@@ -36,7 +36,7 @@ const Admin = () => {
       </nav>
     </aside>
     <div className='headerx'>
-      <img src='/logo.jpg'/>
+      <img src='/logo2.jpg'/>
       <h2>Welcome Admin</h2>
     </div>
     </div >
