@@ -12,6 +12,7 @@ import Cart from './Components/Cart'
 import AddItem from './Components/AddItem'
 import Orders from './Components/Order'
 import Electronics from './Components/Electronics'
+import Dashboard from './Component/Dashboard'
 const App = () => {
   const router=createBrowserRouter(
     [
@@ -28,6 +29,7 @@ const App = () => {
     {path:'/cart',element:<Cart/>},
     {path:'/addItem',element:<AddItem/>},
     {path:'/orders',element:<Orders/>},
+    {path:'/dashboard',element:<Dashboard/>}
   ]}])
   return (
     <div>

@@ -1,0 +1,159 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Dashboardt{
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+#dashboardButton{
+  padding: 9px 15px;
+  background-color: #d1bf18;
+  color: white;
+  border: none;
+  width: 90px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 1200px;
+}
+.dashboard-content{
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.dashboard-content h2{
+  font-size: 40px;
+  color: #c733ae;
+}
+.dashboard-content p{
+  color: #777;
+  margin-bottom: 20px;
+}
+.dashboard-cards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 1000px;
+  margin-left: 150px;
+  gap: 25px;
+}
+.dashboard-card{
+  background-color: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  height: 190px;
+  width: 300px;
+}
+.dashboard-card h3{
+  font-size: 22px;
+  color: #342550;
+  margin-bottom: 20px;
+}
+.dashboard-card h1{
+  font-size: 30px;
+  color: #222;
+  margin-top: 50px;
+}
+.DashboardH{
+  display: flex;
+  flex-direction: column;
+}
+.recentOrder {
+  width: 100%;
+  margin-top: 30px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+}
+
+.recentOrder h2 {
+  margin-bottom: 30px;
+  font-size: 23px;
+  margin-top: 10px;
+}
+.recentT{
+  width: 100%;
+  overflow-x: auto;
+  border-radius: 6px;
+}
+.recentT table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 650px;
+}
+.recentT th,
+.recentT td{
+  padding: 14px;
+  text-align: center;
+}
+.recentT td{
+  background-color: #f7f5f5;
+  color: #575454;
+}
+
+.recentT th {
+  background: #3f2170;
+  color: #fffdfd;
+}
+.recentT tr:hover {
+  cursor: pointer;
+}
+.keys {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+.keys button{
+  padding: 9px 20px;
+  border: none;
+  border-radius: 5px;
+  background: #222;
+  color: white;
+  cursor: pointer;
+}
+.keys #prev{
+  background-color: rgb(16, 131, 131);
+}
+.keys #next{
+  background-color: rgb(16, 131, 131);
+}
+.keys button:hover {
+  background: #444;
+}
+.keys p{
+  font-size: 16px;
+  font-weight: bold;
+  color: #222;
+}
+.recentOrder #recenth2{
+  color: #af1168;
+  font-size: 28px;
+}
+.sea input{
+  border: none;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  margin-left: 20px;
+  text-align: center;
+  background-color: #f5f5f5;
+  color: #222;
+  border:1px solid black;
+  width: 350px;
+}
+
+@media(max-width:768px){
+  .dashboard-cards{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media(max-width:500px){
+  .dashboard-cards{
+    grid-template-columns: 1fr;
+  }
+}

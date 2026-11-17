@@ -17,8 +17,8 @@ const Home = () => {
     }, 3000)
     return () => clearInterval(interval)
   },[])
-  if(user?.role?.toLowerCase() === 'admin') {
-    return <Admin />
+  if(user?.role?.toLowerCase()==='admin'){
+    return <Admin/>
   }
   return (
     <div className='total'>

@@ -1,11 +1,15 @@
 import React, { useState } from 'react'
-import { Link, useOutletContext} from 'react-router-dom'
+import { Link, useNavigate, useOutletContext} from 'react-router-dom'
 import './Admin.css'
 const Admin = () => {
+  const navigate=useNavigate()
   const [show, setShow] = useState(false)
   const {darkMode}=useOutletContext()
   const HandleProducts = () => {
     setShow(prev => !prev)
+  }
+  const HandleDashboard=()=>{
+    navigate('/dashboard')
   }
   return (
     <div className='admint'>
@@ -14,7 +18,7 @@ const Admin = () => {
         <nav>
           <ul>
             <li>
-              <button>Dashboard</button>
+              <button onClick={HandleDashboard}>Dashboard</button>
             </li>
             <li>
               <button onClick={HandleProducts}>
